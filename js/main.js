@@ -1,3 +1,4 @@
+// visitor data
 let visitorData = [
     {month:"January", visitors: 23},
     {month:"February", visitors: 27},
