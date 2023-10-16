@@ -71,10 +71,13 @@ function highContrastMode() {
     allAs.forEach(link => {
         link.style.color = "#00f0a0";
     })
+    cookiesRevokeButton.style.color = "#00f0a0";
+    
     //if(logo.hasAttribute("src")) logo.setAttribute("src", "img/moustache-inverted.png");
     if (logo != null) logo.setAttribute("src", "img/moustache-inverted.png");
     //if(logoArt.hasAttribute("src")) logoArt.setAttribute("src", "../img/moustache-inverted.png");
     if (logoArt != null) logoArt.setAttribute("src", "../img/moustache-inverted.png");
+    
     highContBool = true;
 }
 
@@ -91,8 +94,11 @@ function regularContrastMode() {
         link.style.color = "blue";
     })
 
+    cookiesRevokeButton.style.color = "blue";
+
     if (logo != null) logo.setAttribute("src", "img/moustache.png");
     if (logoArt != null) logoArt.setAttribute("src", "../img/moustache.png");
+
 
     highContBool = false;
 }   
